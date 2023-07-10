@@ -95,7 +95,7 @@
     display: flex;
     justify-content: space-around;
 }
-.section1-img img{
+.section1-curb-img{
     width: 180px;
     position: absolute;
     bottom: 0px;
@@ -103,6 +103,24 @@
 }
 .section1-img{
     background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 200px 200px 0px 0px;
+    height: 300px;
+    width: 270px;
+    position: relative;
+}
+#section1-middle-img{
+    position: absolute;
+    bottom: 50px;
+}
+.section1-img1{
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 200px 200px 0px 0px;
+    height: 300px;
+    width: 270px;
+    position: relative;
+}
+.section1-img2{
+    background-color: rgba(71, 125, 17, 0.15);
     border-radius: 200px 200px 0px 0px;
     height: 300px;
     width: 270px;
