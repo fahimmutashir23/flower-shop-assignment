@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* common code */
+.common-btn{
+    background-color: #E55473;;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+}
+/* common code end */
+
+/* header section start */
+
+.nav-bar{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+.nav-content li{
+    list-style: none;
+}
+.nav-content li a{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.nav-bar h1{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.bannar-section{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 150px 200px 0px 200px;
+}
+.bannar-img img{
+    width: 300px;
+    margin-bottom: -4px;
+}
+.bannar-content{
+    
+}
+.bannar-content h1{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+.bannar-content p{
+    margin-bottom: 20px;
+}
+/* header section end here */
+
+/* main section start here */
+
+.section1{
+    padding: 100px 200px;
+}
+.section1 h1{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section1 p{
+    max-width: 400px;
+    margin: 30px auto;
+    text-align: center;  
+}
+.section1-img-grp{
+    display: flex;
+    justify-content: space-around;
+}
+.section1-img img{
+    width: 180px;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
+.section1-img{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 200px 200px 0px 0px;
+    height: 300px;
+    width: 270px;
+    position: relative;
+}
+.flower-des{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.flower-des p{
+    text-decoration: underline;
+}
+
+.section2{
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 100px 200px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.sec2-containar{
+    text-align: center;
+}
+.section2 h1{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    max-width: 450;
+    margin-bottom: 30px;
+}
+.section2 h1 span{
+    color: #E55473;
+}
+.section2 p{
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+}
+.sec2-img img{
+    width: 250px;
+}
+.section3{
+    padding: 100px 200px;
+}
+.section3 h1{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    max-width: 450;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section3 p{
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+}
+.section3-img-grp{
+    display: flex;
+    justify-content: space-around;
+}
+.section3-img img{
+    width: 200px;
+}
+
+.section4{
+    padding: 0px 200px 100px 200px;
+    text-align: center;
+}
+.bg-img{
+    padding: 50px 180px;
+    background-image: url('../flower asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img h1{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    max-width: 450;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bg-img p{
+    max-width: 450px;
+    margin: 10px auto;
+    text-align: center;
+}
+.email{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.input-info{
+    display: flex;
+    margin-top: 30px;
+}
+.footer{
+    background-color: rgb(39, 38, 38);
+    padding: 150px 200px;
+    text-align: center;
+    color: white;
+}
+.footer-content h1{
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    max-width: 450;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.logo-color{
+    color: red;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+.copyright{
+    color: red;
+}
+
+
+/* main section end here */
