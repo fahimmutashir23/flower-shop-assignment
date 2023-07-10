@@ -108,10 +108,10 @@
     width: 270px;
     position: relative;
 }
-#section1-middle-img{
+/* #section1-middle-img{
     position: absolute;
     bottom: 50px;
-}
+} */
 .section1-img1{
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 200px 200px 0px 0px;
