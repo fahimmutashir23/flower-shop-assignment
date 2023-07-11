@@ -12,6 +12,7 @@
     border: none;
     border-radius: 5px;
     width: 120px;
+    transition: 0.5s;
 }
 /* common code end */
 
@@ -30,17 +31,38 @@
 }
 .nav-content{
     display: flex;
-    align-items: center;
 }
+.nav-content li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(71, 70, 70);
+    padding: 10px px;
+    right: 50px;
+    top: 72px;
+    border-radius: 5px;
+}
+.nav-content li:hover .dropdown{
+    display: block;
+    transition: 1s;
+}
+.dropdown li a:hover{
+    color: red;
+}
+.nav-content li .dropdown li{
+    margin: 10px 10px;
+    
+}
+    
 .nav-content li{
     list-style: none;
 }
 .nav-content li a{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     margin-left: 20px;
+    transition: 0.5s;
 }
 .nav-bar h1{
     font-size: 50px;
